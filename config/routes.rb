@@ -1,4 +1,24 @@
 Joshs::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/prob"
+
+  get "pages/cat"
+
+  get "pages/vote"
+
+  get "pages/buy"
+
+  get "pages/about"
+
+  get "pages/contact"
+
+  get "pages/signin"
+
+  get "pages/signup"
+
+  get "pages/blog"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
