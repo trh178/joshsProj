@@ -1,23 +1,16 @@
 Joshs::Application.routes.draw do
-  get "pages/home"
 
-  get "pages/prob"
+  match '/limbo', :to => 'pages#prob'
+  match '/catalog', :to => 'pages#cat'
+  match '/vote', :to => 'pages#vote'
+  match '/buy', :to => 'pages#buy'
+  match '/about', :to => 'pages#about'
+  match '/contact', :to => 'pages#contact'
+  match '/login', :to => 'pages#signin'
+  match '/signup', :to => 'pages#signup'
+  match '/blog', :to => 'pages#blog'
 
-  get "pages/cat"
-
-  get "pages/vote"
-
-  get "pages/buy"
-
-  get "pages/about"
-
-  get "pages/contact"
-
-  get "pages/signin"
-
-  get "pages/signup"
-
-  get "pages/blog"
+  root :to => 'pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
