@@ -1,0 +1,100 @@
+/* colors */
+.container {
+  width: 710px; }
+
+body {
+  background: #33cc66; }
+
+header {
+  padding-top: 20px; }
+  header img {
+    padding: 1em;
+    background: #33cc66; }
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: white; }
+  section h1 {
+    font-size: 200%; }
+
+/* logo */
+.logo {
+  height: 100px;
+  width: 200px; }
+
+/* links */
+a {
+  color: #33cc66;
+  text-decoration: none; }
+  a:hover {
+    color: #339966;
+    text-decoration: underline; }
+  a:visited {
+    color: #339966; }
+
+/* nav stuff */
+nav {
+  float: right; }
+
+nav {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap; }
+  nav ul {
+    margin: 0;
+    padding: 0; }
+    nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0.2em 0; }
+      nav ul li a {
+        padding: 0 5px;
+        font-weight: bold; }
+        nav ul li a:visited {
+          color: #339966; }
+        nav ul li a:hover {
+          color: #33cc66;
+          text-decoration: underline; }
+
+/* bar stuff */
+bar {
+  float: right; }
+
+bar {
+  background-color: #339966;
+  padding: 0 0.7em;
+  white-space: nowrap; }
+  bar ul {
+    margin: 0;
+    padding: 0; }
+    bar ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 0.2em 0; }
+      bar ul li a {
+        padding: 0 5px;
+        font-weight: bold; }
+        bar ul li a:visited {
+          color: white; }
+        bar ul li a:hover {
+          color: #33cc66;
+          text-decoration: underline; }
+
+/* round corners */
+.round {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+/* footer */
+footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto; }
+
+footer nav {
+  float: none; }

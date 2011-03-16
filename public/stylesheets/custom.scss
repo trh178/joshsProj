@@ -1,0 +1,145 @@
+/* colors */
+$light-green: #3c6;
+$dark-green: #396;
+
+.container
+{
+    width: 710px;
+}
+
+body
+{
+    background: $light-green;
+}
+
+header
+{
+    padding-top: 20px;
+    img
+    {
+        padding: 1em;
+        background: $light-green;
+    }
+}
+
+section
+{
+    margin-top: 1em;
+    font-size: 120%;
+    padding: 20px;
+    background: white;
+    h1
+    {
+        font-size: 200%;
+    }
+}
+
+/* logo */
+.logo
+{
+    height: 100px;
+    width: 200px;
+}
+
+/* links */
+
+a
+{
+    color: $light-green;
+    text-decoration: none;
+    &:hover { color: $dark-green; text-decoration: underline; }
+    &:visited { color: $dark-green; }
+}
+
+/* nav stuff */
+
+nav
+{
+    float: right;
+}
+
+nav
+{
+    background-color: white;
+    padding: 0 0.7em;
+    white-space: nowrap;
+    ul
+    {
+        margin: 0;
+        padding: 0;
+        li
+        {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0.2em 0;
+            a
+            {
+                padding: 0 5px;
+                font-weight: bold;
+                &:visited { color: $dark-green; }
+                &:hover { color: $light-green; text-decoration: underline; }
+            }
+
+        }
+
+    }
+}
+
+/* bar stuff */
+bar
+{
+    float: right;
+}
+
+bar
+{
+    background-color: $dark-green;
+    padding: 0 0.7em;
+    white-space: nowrap;
+    ul
+    {
+        margin: 0;
+        padding: 0;
+        li
+        {
+            list-style-type: none;
+            display: inline-block;
+            padding: 0.2em 0;
+            a
+            {
+                padding: 0 5px;
+                font-weight: bold;
+                &:visited { color: white; }
+                &:hover { color: $light-green; text-decoration: underline; }
+            }
+        }
+    }
+}
+
+/* round corners */
+
+.round
+{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* footer */
+
+footer
+{
+    text-align: center;
+    margin-top: 10px;
+    width: 710px;
+    margin:
+    {
+        left: auto;
+        right: auto;
+    }
+}
+
+footer nav
+{
+    float: none;
+}
